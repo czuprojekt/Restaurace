@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hlavní element pro restauraci -->
+<restaurace>
+	<!-- Informace o restauraci -->
+	<info>
+		<nazev>Čarovná Chaloupka</nazev>
+		<adresa>Příkladová ulice 1, Praha, Česká republika</adresa>
+		<telefon>+420 123 456 789</telefon>
+		<email>info@carovnachaloupka.cz</email>
+	</info>
+	<!-- Menu restaurace -->
+	<menu>
+		<jidlo>
+			<nazev>Svíčková na smetaně</nazev>
+			<popis>Marinovaná svíčková s brusinkami a houskovým knedlíkem.</popis>
+			<cena>250</cena>
+		</jidlo>
+		<jidlo>
+			<nazev>Pečená kachna</nazev>
+			<popis>Pečená kachna se zelím a bramborovými knedlíky.</popis>
+			<cena>300</cena>
+		</jidlo>
+		<jidlo>
+			<nazev>Kulajda</nazev>
+			<popis>Tradiční česká polévka s hřiby, bramboráky, koprem a vejcem.</popis>
+			<cena>150</cena>
+		</jidlo>
+	</menu>
+	<!-- Novinky a akce -->
+	<novinky>
+		<polozka>
+			<nazev>Velikonoční speciál</nazev>
+			<datum>2023-04-12</datum>
+			<popis>Oslavte s námi Velikonoce a vychutnejte si naše speciální menu vytvořené pro tuto příležitost.</popis>
+		</polozka>
+		<polozka>
+			<nazev>Jarní zahrádka</nazev>
+			<datum>2023-04-20</datum>
+			<popis>Zveme vás na otevření naší jarní zahrádky, kde si můžete vychutnat jídlo a nápoje на čerstvém vzduchu.</popis>
+		</polozka>
+		<polozka>
+			<nazev>Živá hudba</nazev>
+			<datum>2023-04-29</datum>
+			<popis>Přijďte a užijte si večer plný živé hudby od místních umělců v našem útulném českém podniku.</popis>
+		</polozka>
+	</novinky>
+</restaurace>

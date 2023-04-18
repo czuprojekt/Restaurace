@@ -1,0 +1,48 @@
+
+		{
+		"restaurace": {
+		"info": { 
+		"nazev": "Čarovná Chaloupka",
+		"adresa": "Příkladová ulice 1, Praha, Česká republika",
+		"telefon": "+420 123 456 789",
+		"email": "info@carovnachaloupka.cz"
+		},
+		"menu": [ 
+		
+			{
+			"nazev": "Svíčková na smetaně",
+			"popis": "Marinovaná svíčková s brusinkami a houskovým knedlíkem.",
+			"cena": 250
+			},
+			{
+			"nazev": "Pečená kachna",
+			"popis": "Pečená kachna se zelím a bramborovými knedlíky.",
+			"cena": 300
+			},
+			{
+			"nazev": "Kulajda",
+			"popis": "Tradiční česká polévka s hřiby, bramboráky, koprem a vejcem.",
+			"cena": 150
+			}
+		],
+		"novinky": [ 
+		
+			{
+			"nazev": "Velikonoční speciál",
+			"datum": "2023-04-12",
+			"popis": "Oslavte s námi Velikonoce a vychutnejte si naše speciální menu vytvořené pro tuto příležitost."
+			},
+			{
+			"nazev": "Jarní zahrádka",
+			"datum": "2023-04-20",
+			"popis": "Zveme vás na otevření naší jarní zahrádky, kde si můžete vychutnat jídlo a nápoje на čerstvém vzduchu."
+			},
+			{
+			"nazev": "Živá hudba",
+			"datum": "2023-04-29",
+			"popis": "Přijďte a užijte si večer plný živé hudby od místních umělců v našem útulném českém podniku."
+			}
+		]
+		}
+		}
+	

@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Čarovná Chaloupka</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- OpenGraph meta značky pro Facebook -->
+    <meta property="og:title" content="Čarovná Chaloupka">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carovnachaloupka.cz">
+    <meta property="og:image" content="https://carovnachaloupka.cz/path/to/image.jpg">
+    <meta property="og:description" content="Tradiční česká kuchyně v útulné atmosféře">
+    <meta property="og:site_name" content="Čarovná Chaloupka">
+    <meta property="og:locale" content="cs_CZ">
+    <!-- Mikrodata schema.org -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Čarovná Chaloupka",
+            "url": "https://carovnachaloupka.cz",
+            "logo": "https://carovnachaloupka.cz/path/to/logo.jpg",
+            "image": "https://carovnachaloupka.cz/path/to/image.jpg",
+            "description": "Tradiční česká kuchyně v útulné atmosféře",
+            "telephone": "+420 123 456 789",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Příkladová ulice 1",
+                "addressLocality": "Praha",
+                "addressCountry": "CZ"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "opens": "10:00",
+                "closes": "22:00"
+            }
+        }
+    </script>
+</head>
+<body itemscope itemtype="https://schema.org/LocalBusiness">
+    <!-- Hlavička -->
+    <header itemprop="name">
+        <h1>Čarovná Chaloupka</h1>
+        <p itemprop="openingHours" content="Mo-Su 10:00-22:00">Otevírací doba: Po-Ne 10:00-22:00</p>
+    </header>
+    <!-- Nabídka -->
+    <section itemprop="servesCuisine" content="Tradiční česká kuchynе.">
+        <div class="section-header">
+            <h2>Nabídka</h2>
+        </div>
+        <div class="section-content">
+            <!-- Svíčková na smetaně -->
+            <article>
+                <h3>Svíčková na smetaně</h3>
+                <p>Marinovaná svíčková s brusinkami a houskovým knedlíkem.</p>
+                <p>Cena: 250 Kč</p>
+            </article>
+            <!-- Pečená kachna -->
+            <article>
+                <h3>Pečená kachna</h3>
+                <p>Pečená kachna se zelím a bramborovými knedlíky.</p>
+                <p>Cena: 300 Kč</p>
+            </article>
+            <!-- Kulajda -->
+            <article>
+                <h3>Kulajda</h3>
+                <p>Tradiční česká polévka s hřiby, bramboráky, koprem a vejcem.</p>
+                <p>Cena: 150 Kč</p>
+            </article>
+        </div>
+    </section>
+    <!-- Novinky a akce -->
+    <aside itemprop="events">
+        <div class="section-header">
+            <h2>Novinky a akce</h2>
+        </div>
+        <div class="section-content">
+            <!-- Velikonoční speciál -->
+            <article>
+                <h3>Velikonoční speciál</h3>
+                <time itemprop="startDate" datetime="2023-04-12">12 dubna 2023</time>
+                <p>Oslavte s námi Velikonoce a vychutnejte si naše speciální menu vytvořené pro tuto příležitost.</p>
+            </article>
+            <!-- Jarní zahrádka -->
+            <article>
+                <h3>Jarní zahrádka</h3>
+                <time itemprop="startDate" datetime="2023-04-20">20 dubna 2023</time>
+                <p>Zveme vás na otevření naší jarní zahrádky, kde si můžete vychutnat jídlo a nápoje na čerstvém vzduchu.</p>
+            </article>
+            <!-- Živá hudba -->
+            <article>
+                <h3>Živá hudba</h3>
+                <time itemprop="startDate" datetime="2023-04-29">29 dubna 2023</time>
+                <p>Přijďte a užijte si večer plný živé hudby od místních umělců v našem útulném českém podniku.</p>
+            </article>
+        </div>
+    </aside>
+    <!-- Kontaktní informace -->
+    <footer>
+        <h2>Kontakty</h2>
+        <!-- Adresa -->
+        <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <span itemprop="streetAddress">Praha, Příkladová ulice 1</span>
+        </p>
+        <!-- Telefon -->
+        <p itemprop="telephone">Telefon: +420 123 456 789</p>
+        <!-- E-mail -->
+        <p itemprop="email">Email: info@carovnachaloupka.cz</p>
+    </footer>
+</body>
+</html>
